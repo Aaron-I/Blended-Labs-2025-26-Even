@@ -78,7 +78,6 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
 
 1. Logged in to the AWS Management Console and explored the Amazon EBS service through the EC2 dashboard to understand different volume types and storage options.
 2. Created a new EBS volume of the required size in the same Availability Zone as the running EC2 instance and verified that the volume was available.
