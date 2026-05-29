@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Aaron I
+* **Register Number**: 212223230002
+* **Date of Submission**: 01/05/2026
 
 ---
 
@@ -96,13 +96,12 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Logged in to the AWS Management Console and navigated to the Amazon EC2 Dashboard to explore available services and resources.
+2. Launched a new EC2 instance using the Amazon Linux 2 AMI and selected the t2.micro instance type. Created a key pair and configured the necessary instance settings.
+3. Configured a security group to allow SSH access on port 22 from my IP address and HTTP access on port 80 from anywhere.
+4. Connected to the running EC2 instance using SSH through the terminal with the downloaded key pair. Verified the connection and executed basic Linux commands.
+5. Monitored the instance performance using the Monitoring tab, observed CPU and network metrics, performed start, stop, and reboot operations, and finally terminated the instance after completing the experiment.
 
 ---
 
@@ -110,19 +109,23 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+<img width="1913" height="961" alt="Screenshot 2026-05-29 200406" src="https://github.com/user-attachments/assets/f87bfdd5-c89d-4adb-9a6f-05f408faf35e" />
+
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="1915" height="952" alt="Screenshot 2026-05-29 200728" src="https://github.com/user-attachments/assets/77ca356a-c9d0-444e-b6a9-7a0697a0fe6a" />
+
+
 
 ---
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1910" height="976" alt="Screenshot 2026-05-29 202503" src="https://github.com/user-attachments/assets/19a5dbcc-120a-49b5-b9c7-e84d09af70c5" />
+
 
 ---
 
