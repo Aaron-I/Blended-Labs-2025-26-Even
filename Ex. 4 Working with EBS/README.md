@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Aaron I
+* **Register Number**: 212223230002
+* **Date of Submission**: 12/05/2026
 
 ---
 
@@ -80,11 +80,11 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Logged in to the AWS Management Console and explored the Amazon EBS service through the EC2 dashboard to understand different volume types and storage options.
+2. Created a new EBS volume of the required size in the same Availability Zone as the running EC2 instance and verified that the volume was available.
+3. Attached the EBS volume to the EC2 instance as an additional storage device and connected to the instance using SSH.
+4. Identified the attached block device, formatted it with the ext4 file system, created a mount directory, and mounted the volume to the instance.
+5. Created sample files and directories in the mounted volume, rebooted the EC2 instance, remounted the volume if necessary, and verified that all stored data remained available, confirming data persistence.
 
 ---
 
@@ -92,19 +92,22 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1911" height="971" alt="Screenshot 2026-05-29 210824" src="https://github.com/user-attachments/assets/26ea254d-abe3-477d-8b17-ef999c436693" />
+
 
 ---
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+<img width="1918" height="959" alt="image" src="https://github.com/user-attachments/assets/0a2f4955-67be-4b01-841a-0e7e7d41c784" />
+
 
 ---
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
+<img width="1911" height="964" alt="Screenshot 2026-05-29 212002" src="https://github.com/user-attachments/assets/2373e2fd-f37f-4b2d-8726-75b04c9e9a3d" />
+
 
 ---
 
