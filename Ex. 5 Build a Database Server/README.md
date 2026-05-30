@@ -4,7 +4,7 @@
 
 * **Name**: Aaron I
 * **Register Number**: 212223230002
-* **Date of Submission**: __________________
+* **Date of Submission**: 15/05/2026
 
 ---
 
@@ -82,13 +82,12 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Logged in to the AWS Management Console and launched an Amazon EC2 instance using Amazon Linux 2 AMI.
+2. Configured the security group to allow SSH access (Port 22) and MySQL database access (Port 3306).
+3. Connected to the EC2 instance using SSH and updated the system packages.
+4. Installed the MySQL database server, started the service, and configured the database environment.
+5. Created a sample database and table, inserted records, and verified the data using SQL queries.
 
 ---
 
